@@ -1,0 +1,459 @@
+body{ padding-top: 80px; font-family: 'AvantGarde-Book'; }
+a, a:hover, a:focus{ text-decoration: none; }
+
+.navbar-default .navbar-collapse{ border: none; }
+.navbar-fixed-top{ border-bottom:1px solid #999;}
+.navbar-collapse{ background: #FFF;}
+.collapse.in, .collapsing{ padding-bottom: 5px; }
+.collapse.in .navbar-nav, .collapsing .navbar-nav{padding-top: 0; font-size: 16px;  margin-bottom: 0; margin-top:0;}
+.collapse.in .navbar-nav li a, .collapsing .navbar-nav li a{ padding-top:0px; padding-bottom: 5px;}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{background-color: #cc0000; border-color: #cc0000;}
+.pagination > li > a, .pagination > li > span {color:#cc0000;}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {color:#cc0000;}
+
+.navbar-fixed-top{ background: #FFF; min-height: 80px; }
+.navbar-brand{ padding: 0; padding-top:2px; margin-right: 10px; }
+.navbar-nav{ padding-top: 15px; font-family: 'Helvetica Neue'; text-transform: uppercase; }
+.navbar-nav > li > a{ font-size: 18px; padding-left: 10px; padding-right: 10px; }
+.navbar-nav.social > li > a{ padding: 5px; }
+.navbar-nav.social > li.active a{ background: #FFF !important; } 
+.nav > li{ background: #FFF; }
+.navbar-nav.social .btn-reg{ padding: 10px 20px !important; }
+.navbar-nav.social > li.active .btn-reg{ background: #f15a26 !important;  }
+
+.btn-reg{ background: #cc0000 !important; color: #FFF !important; padding: 15px 40px !important; border-radius: 5px; font-size: 18px !important; line-height: 18px !important; text-transform: uppercase; margin-right: 10px; margin-top: 3px; display: inline-block;}
+.btn-reg.white{ background: #FFF !important; color: #000 !important;}
+.btn-white{ background: #FFF; color: #000; padding: 11px 20px !important; border-radius: 5px; font-size: 18px !important; line-height: 18px !important; text-transform: uppercase; display: inline-block; border: none; vertical-align: middle;  display: inline-block;}
+
+
+.main-top-bg{ background: url(../images/bg-1.jpg) no-repeat scroll center top transparent; height: 821px; }
+.main-register-bg{ background: url(../images/bg-2.jpg) no-repeat scroll center top #f6f6f6;}
+.main-register-bg .container{ height: 560px; }
+.main-talent-bg{ background: url(../images/bg-3.jpg) no-repeat scroll center top #e6e6e7; }
+.main-talent-bg .container{ height: 559px; }
+.main-hotel-bg{ background: url(../images/bg-7.jpg) no-repeat scroll center top #FFF; }
+.main-hotel-bg .container{ height: 562px; }
+.main-parties-bg{ background: url(../images/bg-parties.jpg) no-repeat scroll center top #FFF; }
+.main-parties-bg .container{ height: 560px; }
+.main-schedule-bg{ background: url(../images/bg-schedule.jpg) no-repeat scroll center top #FFF; }
+.main-schedule-bg .container{ height: 562px; }
+.main-gallery-bg{ background: url(../images/bg-gallery.jpg) no-repeat scroll center top #FFF; }
+.main-gallery-bg .container{ height: 560px; }
+.main-thelair-bg{ background: url(../images/bg-8.jpg) no-repeat scroll center top #000; }
+.main-thelair-bg .container{ height: 561px; }
+.main-exhibitors-bg{ background: url(../images/bg-6.jpg) no-repeat scroll center top #504b48; }
+.main-exhibitors-bg .container{ height: 531px; }
+
+.container{ color: #272727; }
+.bg-black{ background: #020000; color: #FFF; }
+.bg-black .container{ color: #FFF; }
+.bg-red{ background: #cc0000; }
+.bg-gray{ background: #333333; color: #848181;}
+.bg-gray .container{ color: #848181; }
+.bigger{ font-size: 35px; line-height: 35px;}
+
+h2.headding{ color:#fff; font-size: 32px; }
+.arrow p{ margin: 10px 0; }
+.register{ padding-top: 90px; padding-bottom: 90px; }
+.register h1{ font-size: 38px; margin-bottom: 30px; }
+.longtext{ font-size: 18px; line-height: 30px; }
+h2.headding .centr-txt {padding-top:20px; display:inline-block; font-weight:bold; }
+.arrow .centr-txt { font-size:27px; color:#fff; font-weight:bold;}
+
+.newsletter{ padding-top: 30px; padding-bottom: 20px; }
+.newsletter h3{ text-transform: uppercase; font-size: 26px; }
+.newsletter input[type="text"]{ border: none; background: #4e5052; padding: 12px 20px; font-size: 14px; border-radius: 10px; width: 240px; vertical-align: middle; }
+.hashtag{ padding-top: 35px;}
+.hashtag h3{ font-size: 18px;}
+
+.schedule{ padding-top: 180px; color: #FFF;}
+.schedule h1{ margin-bottom: 10px; }
+.schedule .info{ font-size: 24px; }
+.schedule .view{ padding-top: 10px; }
+.schedule .btn-reg{ padding-left: 50px !important;padding-right: 50px !important; }
+
+.parties{ padding-top: 180px; color:#FFF;}
+.parties h1{margin-bottom: 10px; text-transform:uppercase; }
+.parties .info{ font-size: 24px; max-width: 450px;}
+.parties .view{ padding-top: 10px;}
+.parties .btn-reg{ padding-left: 50px !important; padding-right: 50px !important; }
+
+.gallery{ padding-top: 140px; }
+.gallery h1{margin-bottom: 10px; }
+.gallery .info{ font-size: 24px; }
+.gallery .view{ padding-top: 10px;}
+
+.exhibitors{ padding-top: 180px; }
+.exhibitors h1{margin-bottom: 10px; color:#fff; }
+.exhibitors .info{ font-size: 24px;color:#fff; }
+.exhibitors .view{ padding-top: 10px;}
+
+.talent{ padding-top: 180px; color:#fff; }
+.talent h1{ margin-bottom: 10px; }
+.talent .info{ font-size: 24px; }
+.talent .view{ padding-top: 10px; }
+.talent .btn-reg{ padding-left: 50px !important;padding-right: 50px !important; }
+
+.hotel{ padding-top: 140px; }
+.hotel h1{margin-bottom: 10px; }
+.hotel .info{ font-size: 24px; }
+.hotel .view{ padding-top: 10px;}
+
+.thelair{ padding-top: 430px; }
+.thelair .btn-reg{ background: #c20606 !important; color: #000 !important;}
+
+.sponsors-img{ overflow: hidden; padding-bottom: 10px}
+.sponsors-img img{ width: 100%;}
+
+.bigpadding{ padding-bottom: 40px;}
+
+.footer{ font-family: 'Helvetica Neue'; font-size: 11px; line-height: 16px; padding-top:40px; padding-bottom: 40px }
+.bg-black .footer{ color: #999999; }
+.footer a{ color: #ecebeb;}
+.footer .quicknav{ font-size: 18px; line-height: 22px;}
+.footer .quicknav li{margin-bottom: 5px; float: left; width: 50%;}
+.footer .social img{ margin: 2px;}
+.footer .newsletter{ padding-top: 0; padding-bottom: 0;}
+.footer .newsletter h3{ font-size: 22px; margin-top: 0; color: #CCC; }
+
+/* Hotel Page  */
+.hotel-bg{ background: url(../images/hotel-page-bg.jpg) no-repeat scroll center top; height: 435px;}
+/* Exhibit page*/
+.exhibit-bg{ background: url(../images/bg-6.jpg) no-repeat scroll center top #504b48; height: 435px;}
+/* Schedule page*/
+.schedule-bg{ background: url(../images/schedule-page-bg.jpg) no-repeat scroll center top; height: 433px;}
+/* Thelair Page */
+.thelair-bg{ background: url(../images/bg-8.jpg) no-repeat scroll center top; height: 435px;}
+/* Taklent Page*/
+.talent-bg{ background: #cc0000; font-size: 70px; line-height: 110px; color: #FFF;}
+.talent-bg .container{ color: #FFF; }
+.talent h2{ font-size: 26px; /* line-height: 36px; */ margin-top:10px; }
+.talent .col{ padding-bottom:15px; }
+/* Gallery Page*/
+.gallery-bg{ background: #cc0000; font-size: 70px; line-height: 110px; color: #FFF;}
+.gallery-bg .container{ color: #FFF; }
+.gallery h2{ font-size: 26px; margin-top:10px; }
+.gallery .col{ height: 230px; }
+.gallery .imgs{ text-align: center;}
+.gallery .imgs img{ max-width: none !important; width: auto !important;}
+/* Press Page */
+.press-bg {background: url(../images/press-page-bg.jpg) no-repeat scroll center top; height: 435px;}
+
+/* Tickets Page */
+.tickets-bg{ background: url(../images/tickets-page-bg.jpg) no-repeat scroll center top; height: 431px;}
+.tickets .ticket h2 {margin:0; margin-bottom:15px; }
+.tickets .ticket{ padding:15px; margin-bottom:30px; color:#fff; min-height:485px; }
+.tickets .ticket .info{ padding-left: 5%; padding-right: 5%; font-size: 24px; padding-bottom: 10px; }
+.tickets .btn-reg {margin-left:15px;}
+
+.tickets .tbg1{ background: #faf1e8; min-height: 270px; padding-top: 20px; color:#000;}
+.tickets .ticket.tbg1{ min-height: 270px;}
+.tickets .tbg1 h2.red span {color:#000;}
+.tickets .tbg2 img{ width: 100%; height: 270px;}
+.tickets .tbg3{ background: #000; }
+.tickets .tbg3 h2 { color:#cc0000; }
+.tickets .tbg3 h2 span {color:#fff;}
+.tickets .tbg4{ background: #8d0101; }
+.tickets .tbg4 .btn-reg{ background-color: #fff !important; color:#000 !important;}
+.tickets .tbg5{ background: #b40303; }
+.tickets .tbg5 .btn-reg{ background-color: #fff !important; color:#000 !important;}
+.tickets .tbg6{ background: #cb0000;  }
+.tickets .tbg6 .btn-reg{ background-color: #fff !important; color:#000 !important;}
+
+.gallery .portfolio-item { margin-bottom: 30px; }
+
+.page{ padding-top: 80px; color: #333333; padding-bottom: 80px; }
+.page h1{ font-size: 40px; margin-bottom: 40px; text-transform:uppercase}
+.page p{ font-size: 22px; line-height: 32px; margin-bottom: 20px;}
+.page p.bigline{ line-height: 48px;}
+.page .btn-row{ padding-top: 10px; margin-bottom: 30px;}
+.page .imgs img{ width: 100%; margin-bottom: 10px;}
+
+.red-border{ border: 1px solid #cc0000; border-radius: 5px; display: inline-block; min-width: 300px; margin-bottom: 30px; padding: 10px; background: url(../images/red-border-bg.jpg) repeat-x; }
+.red-border > h3,
+.red-border > h4{ padding-left: 10px;}
+.red-border > h3 {color:#000;}
+.red-border .vip{ background: #000; border-radius: 5px; padding: 10px 10px; color: #999999;}
+.red-border .vip h3{ margin-top: 10px; color:#fff;}
+
+.red {color:#cc0000;}
+
+.events .event{ background: #d9d7d7; color:#000; padding: 20px; padding-bottom: 10px; margin-bottom: 30px; min-height: 550px;}
+.events .event img {width: 100%;}
+.events .event h1{ font-size: 48px; margin-bottom: 20px; }
+
+.sponsors{ background: #FFF;  padding: 20px 0; }
+.sponsors h2{ margin-top: 0; font-size: 20px; letter-spacing: 4px; text-transform: uppercase; color: #848181;}
+.sponsors.mediasponsors{ background: #333; }
+
+.jcarousel-wrapper{ position: relative; }
+.jcarousel{ position: relative; overflow: hidden; width: 100%; }
+.jcarousel ul { width: 20000em; position: relative; list-style: none; margin: 0; padding: 0; }
+.jcarousel ul li { /* width: 190px; */ margin: 0 10px; float: left; text-align: center; }
+.jcarousel ul li img { max-width: 180px; max-height: 80px; }
+
+
+
+.schedule-page{ padding-top: 80px; color: #333333; padding-bottom: 80px; }
+.schedule-page h1{ font-size: 40px; margin-bottom: 40px;}
+.schedule-page .imgs img{ width: 100%; margin-bottom: 10px; max-width: 540px;}
+
+
+.schedule-page .schedule{ padding-top: 0; margin-bottom: 20px; color: #000; }
+.schedule .tabs{ text-align: center; list-style: none; margin: 0; padding: 0; }
+.schedule .tabs li{ display: inline-block; }
+.schedule .tabs li a{ display: inline-block; background: #FFF; padding: 3px 10px; text-transform: uppercase; font-size: 18px; color: #33cff2; border: 1px solid #ccc; border-bottom: none; font-family: 'Proxima Nova Bl';}
+.schedule .tabs li.active a{ color: #ff6600; }
+.schedule .tabs-content{ display: none; background: #FFF;}
+.schedule .tabs-content.active{ display: block; }
+.schedule .title{ border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; display: table; }
+.schedule .title > div{ display: table-cell; padding: 10px; font-weight: bold; }
+.schedule .event > div{ display: table-cell; padding: 10px; vertical-align: top; }
+.schedule .title .name,
+.schedule .event .name{ width: 240px; font-weight: bold; }
+.schedule .title .time,
+.schedule .event .time{ width: 410px; }
+.schedule .title .location,
+.schedule .event .location{ width: 250px; }
+.schedule .title .note,
+.schedule .event .note{ width: 490px; }
+.schedule .title .sponsor,
+.schedule .event .sponsor{ width: 550px; }
+.schedule .event{ border-bottom: 1px solid #ccc; color: #383e44; font-size: 14px; }
+.schedule .event .note a{ display: inline-block; color: #33cff2; padding: 3px 10px; }
+.schedule .event .note .description{ display: none; }
+.schedule .event .sponsor img{ max-width: 140px; max-height: 65px; margin: 0 10px 10px 0; }
+.schedule .desc-open .title .note,
+.schedule .desc-open .event .note{ width: 380px; }
+.schedule .desc-open .title .sponsor,
+.schedule .desc-open .event .sponsor{ width: 330px; }
+.schedule .day-title{ background: #FFF; margin-top:20px; }
+.schedule .day-title a{ display: block; border: 1px solid #ccc; padding: 10px; font-size: 24px; font-family: 'Proxima Nova Bl'; color: #33cff2; }
+.schedule .day-title a .arrow{ display: block; float: right; width: 12px; height: 23px; background: url(../images/schedule-arrow2.gif) no-repeat scroll center center transparent; margin-top:5px; }
+.schedule .day-title.active a{ color: #ff6600; }
+.schedule .day-title.active a .arrow{ background: url(../images/schedule-arrow1.gif) no-repeat scroll center center transparent; width: 22px; height: 11px; margin-top:10px;}
+
+.speakers-page{ color: #000; padding-bottom: 40px; text-align: center; }
+.speakers-page .speaker{ margin-bottom: 20px; }
+.speakers-page .speaker .image{ max-width: 200px; max-height: 200px;}
+.speakers-page h1{ font-weight: bold; text-transform: uppercase; color: #000; letter-spacing: 4px; font-size: 34px; margin-top: 60px; margin-bottom: 60px; }
+.speakers-page h2{ font-family: 'Proxima Nova XBl'; text-transform: uppercase; letter-spacing: 4px; font-size: 22px; margin: 10px 0 10px; }
+.speakers-page h3{ font-family: 'Proxima Nova XBl'; font-size: 14px; margin: 0; }
+.speakers-page .title{ font-family: 'Proxima Nova XBl'; color: #33cff2; font-size: 14px; margin-bottom: 10px; }
+.speakers-page .bio{ height: 100px; overflow: hidden; line-height: 20px; font-size: 12px; }
+.speakers-page .schedule{ padding-top: 10px;}
+.speakers-page .schedule th{ text-align: center; font-weight: bold; }
+
+.main-seminars-bg{ background: url(../images/seminars-bg.jpg) no-repeat scroll center top #FFF; }
+.main-seminars-bg .container{ height: 652px; }
+.seminars{ padding-top: 500px; }
+.seminars-bg{ background: url(../images/seminars-page-bg.jpg) no-repeat scroll center top; height: 400px; }
+
+.events-bg{  background: url(../images/events-page-bg.jpg) no-repeat scroll center top; height:434px; }
+
+.shadow-bg {background:url("../images/shadow-bg.png") no-repeat scroll center top;}
+
+@media (max-width: 767px) {
+	body{ padding-top: 125px;}
+	.navbar-fixed-top {height: auto; min-height: 60px; padding:25px 0;}
+	.navbar-brand {height: auto; max-width: 240px; width: 50%;}
+	.navbar-header .navbar-brand img {width: 100%;}
+	.navbar-toggle { padding: 20px 25px;}
+	
+	.main-top-bg{ background-image: url(../images/bg-1-XS.jpg); background-size: cover; height: 659px}
+	.main-register-bg{ background-image: url(../images/bg-2-XS.jpg); background-size: cover; height: 585px; }
+	.main-talent-bg{  background-size: cover; height: 370px; }
+	.main-hotel-bg{ background-size: cover; height: 315px; }
+	.main-parties-bg{  background-size: cover; height: 315px; }
+	.main-schedule-bg{  background-size: cover; height: 315px; }
+	.main-gallery-bg{ background-image: url(../images/bg-gallery-XS.jpg); background-size: cover; height: 422px; }
+	.main-thelair-bg{ background-size: cover; height: 330px; }
+	.main-exhibitors-bg{  background-size: cover; height: 315px; }
+	
+	
+	h1{font-size: 28px;}
+	h2.headding{ font-size: 18px; line-height: 28px; margin: 20px 0; }
+	h2.headding .text-left{ text-align: center; margin-bottom: 10px;}
+	h2.headding .text-right{ text-align: center; }
+	h2.headding .smaller{ font-size: 14px;}
+	h2.headding .date{ font-size: 24px; }
+	
+	.register{ padding-top: 30px;}
+	.register h1{ font-size: 28px; text-align: center; margin-bottom:10px;}
+	.register .longtext {height:350px;}
+	.register .longtext p { text-align:left; font-size: 14px; line-height: 24px;}
+	.register .row{text-align: center;}
+	.newsletter h3{ font-size: 23px; }
+	
+	.newsletter,
+	.hashtag{ text-align: center;}
+	
+	.hashtag{padding-bottom: 20px; padding-top: 0;}
+	.hashtag img{ width: 250px;}
+	
+	.talent{ text-align: center; padding-top: 0;}
+	.talent h1 { font-weight:bold; font-size:30px;}
+	.talent span {color:#fff; font-size:23px;}
+	.talent .view {padding-top:80px;}
+	
+	.hotel{ padding-top: 0; }
+	
+	.parties{ padding-top: 10px;}
+	.parties h1 {max-width:200px;}
+	.parties .info{ max-width: 300px; }
+	
+	.schedule{ padding-top: 0;}
+	.gallery{ padding-top:0;}
+	
+	.thelair{ padding-top: 240px;  text-align: center;}
+	.exhibitors{ padding-top: 70px; text-align: center;}
+	
+	.schedule .info,
+	.exhibitors .info,
+	.parties .info,
+	.gallery .info,
+	.hotel .info{ font-size: 20px; }
+	
+	.footer{ padding-r: 0 0 10px;}
+	.footer .newsletter,
+	.footer .social{ text-align: center; margin-bottom: 15px;}
+	.footer .social img{ width: 50px; margin: 2px 10px;}
+	.footer .quicknav{text-align: center; padding: 10px 0; background: #FFF;  text-transform: uppercase;}
+	.footer .quicknav li{ display: inline-block; padding: 0 5px; float: none; width: auto;}
+	.footer .quicknav li a{ color: #706e6e; }
+	.footer .flinks{ text-align: center;}
+	.footer .avnlogo {margin-bottom:20px;}
+	
+	.bigpadding .btn-reg.white { color:#cc0000 !important;}
+	
+	.hotel-bg{ background-size: cover; height: 220px; }
+	.exhibit-bg{ background-size:cover; height: 280px; }
+	.schedule-bg{ background-size: cover; height: 240px;}
+	.thelair-bg{ background-size: cover; height: 275px; }
+	.tickets-bg{ background-size: cover; height: 235px; }
+	.press-bg {background-size:cover; height: 300px;}
+	.events-bg {background-size:cover; height: 300px;}
+	
+	.page h1{ font-size: 28px; text-align: center;}
+	.page .col-xs-12{ text-align: center; }
+	.page p{ font-size: 16px; line-height: 24px;}
+	.page .col-xs-12.text-right,
+	.page .btn-row{ text-align: center;}
+	
+	.talent h2{ font-size: 20px; }
+	
+	.event {min-height: 0;}
+	
+	.main-seminars-bg{ background-image: url(../images/seminars-bg-XS.jpg); background-size: cover; }
+	.main-seminars-bg .container{ height: 510px; }
+	.seminars{ padding-top: 250px;}
+	.seminars .view { text-align: center; padding-top: 170px; }
+	
+	.seminars-bg{ background-size: cover; height: 220px; }
+}
+@media (max-width: 992px) {
+	.schedule .event{ padding: 20px; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+	.schedule .event > div{ display: block; width: auto; padding: 0; }
+	.schedule .event .name,
+	.schedule .event .time,
+	.schedule .event .location,
+	.schedule .event .note,
+	.schedule .desc-open .event .note,
+	.schedule .event .sponsor{ width: auto; }
+	.schedule .event .name{ font-weight: bold; font-size: 20px; margin-bottom: 10px;}
+	.schedule .event .location{ margin-bottom: 10px; }
+	.schedule .event .note{ margin-bottom: 10px; }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	body{ padding-top: 110px;} 
+	.navbar-header .navbar-brand img{ width: 180px;}
+	.navbar-nav.social{ float: left !important; padding-left: 185px; padding-top:0; }
+	
+	.main-top-bg{ background-size: cover; height:560px; }
+	.main-register-bg{ background-size: cover; height: 420px;}
+	.main-talent-bg{ background-size: cover; height: 420px; }
+	.main-hotel-bg{ background-size: cover; height: 420px; }
+	.main-parties-bg{ background-size: cover; height: 420px; }
+	.main-schedule-bg{ background-size: cover; height: 420px; }
+	.main-gallery-bg{ background-size: cover; height: 420px; }
+	.main-thelair-bg{ background-size: cover; height: 420px; }
+	.main-exhibitors-bg{ background-size: cover; height: 420px; }
+	.main-seminars-bg{ background-size: cover; height: 420px; }
+	
+	h1{font-size: 32px;}
+	h2.headding{ font-size: 25px; }
+	.register h1{ font-size: 32px; }
+	.longtext{ font-size: 16px; line-height: 26px;}
+	.newsletter h3{ font-size: 22px; }
+	
+	.register{ padding-top: 40px; }
+	.register .info{ font-size: 20px; }
+	
+	.talent{padding-top: 120px;}
+	.talent .info{ font-size: 20px; }
+	
+	.hotel{ padding-top: 60px; }
+	.hotel .info{ font-size: 20px; }
+	
+	.parties{ padding-top: 120px; }
+	.parties .info{ font-size: 20px; }
+	
+	.schedule{ padding-top: 80px; }
+	.schedule .info{ font-size: 20px; }
+	
+	.gallery{ padding-top: 80px; }
+	.gallery .info{ font-size: 20px; }
+	
+	.thelair{ padding-top: 310px; }
+	
+	.exhibitors{ padding-top: 120px; }
+	.exhibitors .info{ font-size: 20px; }
+	
+	.talent h2{ font-size: 20px; }
+	
+	
+		
+	.footer .newsletter h3{ font-size: 20px;}
+	.footer .quicknav li{ display: inline-block; margin: 0 5px;float: none; width: auto;}
+	.footer .newsletter input[type="text"]{ margin-bottom: 10px;}
+	
+	.hotel-bg{background-size:cover;  height: 270px; }
+	.exhibit-bg{ background-size:cover; height: 278px; }
+	.schedule-bg{ background-size:cover; height: 305px;}
+	.thelair-bg{ background-size:cover; height: 364px; }
+	.tickets-bg{ background-size:cover; height: 364px; }
+	.events-bg {background-size:cover; height: 364px;}
+	.press-bg {background-size:cover; height: 364px;}
+	
+	.page h1{ font-size: 32px;}
+	.page p{ font-size: 18px; line-height: 28px;}
+	
+	.footer .flinks{ padding-top: 20px; text-align: center;}
+	
+	.seminars{ padding-top: 320px;}
+	.seminars-bg{ background-size: cover; height: 280px; }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	body{ padding-top: 110px;} 
+	.navbar-nav.social{ float: left !important; padding-left: 255px; padding-top:0;}
+	.footer .quicknav li{ display: inline-block; margin: 0 5px; float: none; width: auto;}
+		
+	.main-top-bg{ background-size: cover; height: 700px;}
+	.main-thelair-bg{ background-size: cover; height: 370px;}
+	.main-thelair-bg .container{ height: 370px}
+	.thelair{ padding-top:290px;}
+	
+	.talent h2{ font-size: 24px; }
+	
+	.footer .flinks{ padding-top: 20px; text-align: center;}
+	
+	.main-seminars-bg{ background: url(../images/seminars-bg-MD.jpg) no-repeat scroll center top #FFF; }
+	.main-seminars-bg .container{ height: 400px; }
+	.seminars{ padding-top: 280px;}
+	.seminars-bg{ background: url(../images/seminars-page-bg.jpg) no-repeat scroll center top; background-size: cover; height: 300px; }
+}
+@media (min-width: 1200px) {
+.footer .quicknav li{margin-bottom: 5px; float:left; width:50%;}
+}

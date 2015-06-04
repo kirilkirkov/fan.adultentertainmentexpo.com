@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1.0, user-scalable=no">
+	
+	<title>Adult Entertainment Expo - DEV</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	
+	<link rel="icon" type="image/png" href="images/favicon.png?new=yes">
+	<!--[if IE]>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?new=yes"/>
+	<![endif]-->
+	
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="css/fonts.css" type="text/css" rel="stylesheet" >
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container" id="mainnav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#top"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <div class="navbar-collapse collapse" >
+          <ul class="nav navbar-nav" role="navigation">
+          	<li class=""><a href="/talent" target="_self" >Talent</a></li>
+<li class=""><a href="/hotel" target="_self" >Hotel</a></li>
+<li class=""><a href="/parties" target="_self" >Parties</a></li>
+<li class=""><a href="/schedule" target="_self" >Schedule</a></li>
+<li class=""><a href="/gallery" target="_self" >Gallery</a></li>
+<li class=""><a href="/thelair" target="_self" >Lair</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right social hidden-xs">
+          	<li><a href="https://www.showreg.net/WebReg/AEE1501S/AEE FAN Ticketing/Register.aspx" class="btn-reg" target="_blank">Tickets</a></li>
+            <li><a href="https://www.facebook.com/AVNSHOW" target="_blank"><img src="images/fb.png" alt="fb"></a></li>
+            <li><a href="http://instagram.com/avnshow" target="_blank"><img src="images/in.png" alt="in"/></a></li>
+            <li><a href="https://twitter.com/AEexpo" target="_blank"><img src="images/tw.png" alt="tw" /></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right visible-xs">
+          	<li><a href="https://www.showreg.net/WebReg/AEE1501S/AEE FAN Ticketing/Register.aspx" target="_blank">Tickets</a></li>
+            <li><a href="https://www.facebook.com/AVNSHOW" target="_blank">Facebook</a></li>
+            <li><a href="http://instagram.com/avnshow" target="_blank">instragram</a></li>
+            <li><a href="https://twitter.com/AEexpo" target="_blank">Twitter</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<div class="main-top-bg" id="top"></div>
+
+<div class="bg-black hidden-xs" id="tickets">
+    <div class="container">
+        <h2 class="text-center headding clearfix">
+            <div class="col-sm-3 col-xs-12 text-left">
+                <img src="images/hrtext.png" alt="">
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <span class="centr-txt">Tickets on Sale Now!</span>
+            </div>
+            <div class="col-sm-3 col-xs-12 text-right">
+                <span class="bigger">JANUARY</span><br /> 20-23 2016
+            </div>
+        </h2>
+    </div>
+</div>
+<div class="bg-red">
+    <div class="container arrow">
+        <p class="text-center">
+            <img src="images/red-arrow.png" alt=""
+                class="hidden-xs"> <span class="centr-txt visible-xs">Tickets
+                on Sale Now!</span>
+        </p>
+    </div>
+</div>
+
+<div class="main-register-bg">
+    <div class="container register">
+        <h1 class="">
+            It’s Back, the World’s<br / class="hidden-xs">Largest Adult
+            Expo!
+        </h1>
+        <div class="row longtext">
+            <div class="col-sm-5">
+                <p>The AVN Show is the chance for you to meet more than
+                    500 hottest stars from the adult industry. With
+                    entertainment, autograph sessions and more, it's the
+                    only place to see your favorite performers and get
+                    up close and personal with them.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ">
+                <a href="/tickets/" class="btn-reg">Tickets</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-1 col-sm-6 newsletter">
+                <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+		    		<form action="/subscribe/" method="post" onsubmit="return checkForm();">
+	<input type="hidden" name="subform" value="1" />
+	<div>
+		<input type="text" name="email" id="email" placeholder="Enter a Valid Email Address" />
+		<button type="submit" class="btn-white">Submit</button>
+	</div>
+</form>
+<script type="text/javascript">
+function checkForm(){
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if(!re.test($('#email').val())){
+		alert('Wrong email!');
+		return false;
+	}else{
+		return true;
+	}
+}
+</script>		    	</div>
+            <div class="col-sm-6 col-lg-5 hashtag">
+                <h3>Thank you for using our show hashtag!</h3>
+                <img src="images/hashtag.png"
+                    alt="#avnshow" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main-talent-bg" id="talent">
+    <div class="container talent">
+        <div class="col-sm-offset-7">
+            <h1 class="hidden-xs">
+                Meet the<br />Sexy Stars!
+            </h1>
+            <h1 class="visible-xs">MEET THE SEXY STARS</h1>
+            <span class="visible-xs">Seminars, Exhibit Hours,<br>Networking Events & More…
+            </span>
+            <div class="view">
+                <a href="/talent" class="btn-reg white">VIEW TALENT</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-hotel-bg" id="hotel">
+    <div class="container hotel">
+        <div class="col-xs-offset-7">
+            <h1>Hotel</h1>
+            <div class="info">Get A Room!</div>
+            <div class="view">
+                <a href="/hotel" class="btn-reg">Book now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-parties-bg" id="parties">
+    <div class="container parties">
+        <h1>Party Like a Porn Star</h1>
+        <div class="info">Get up close and personal with the world’s
+            hottest stars, and get your groove on!</div>
+        <div class="view">
+            <a href="/events" class="btn-reg">View</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-schedule-bg" id="schedule">
+    <div class="container schedule">
+        <div class="col-xs-offset-6 col-sm-offset-8">
+            <h1>SHOW SCHEDULE</h1>
+            <div class="info">
+                Sexy Stage Shows, Seminars, <br />Special Events and
+                More…
+            </div>
+            <div class="view">
+                <a href="/schedule" class="btn-reg white">View</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-seminars-bg" id="seminars">
+    <div class="container seminars">
+        <div class="col-sm-offset-8 view">
+            <a href="/seminars" class="btn-reg">View</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-gallery-bg" id="gallery">
+    <div class="container gallery">
+        <div class="col-lg-offset-4 col-sm-offset-3 col-xs-offset-7">
+            <h1>Gallery</h1>
+            <div class="info">See all the Action!</div>
+            <div class="view">
+                <a href="/gallery" class="btn-reg">Enter</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-thelair-bg" id="thelair">
+    <div class="container thelair">
+        <div class="text-center view">
+            <a href="/thelair" class="btn-reg">ENTER THE LAIR</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-exhibitors-bg" id="exhibitors">
+    <div class="container exhibitors">
+        <div class="text-center">
+            <h1>EXHIBITORS</h1>
+            <div class="info">If you're not in, get in while you can</div>
+            <div class="view">
+                <a href="/exhibitors" class="btn-reg">Exhibit info</a> <a
+                    href="/exhibitors/listing" class="btn-reg">Exhibitors</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="bg-red">
+	    <div class="container">
+	    	<h2 class="text-center headding hidden-xs">Attend the World’s Largest Adult Entertainment Event!</h2>
+	    	<h2 class="text-center headding visible-xs">DON’T MISS THE HOTTEST SHOW ON EARTH!</h2>
+	    	<div class="text-center bigpadding">
+		    	<a href="https://www.showreg.net/WebReg/AEE1501S/AEE FAN Ticketing/Register.aspx" class="btn-reg white" target="_blank">Buy Tickets Now</a>
+	    	</div>
+	    </div>
+    </div>
+
+    <div class="sponsors mediasponsors">
+    	<div class="container" >
+    		<h2 class="text-center">Show Sponsors</h2>
+    		<div class="jcarousel-wrapper">
+	<div class="jcarousel sponsorscarousel" id="media_carousel">
+		<ul>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+							<li><span><a href="http://imlive.com/"><img src="/public/uploads/logos/8141d7484f4a81d8b37d21196c8ff220.png" alt="ImLive" /></a></span></li>
+					</ul>
+	</div>
+</div>
+<script type="text/javascript">
+(function($) {
+    $(function() {
+        $('#media_carousel')
+            .on('jcarousel:reload jcarousel:create', function (event) {
+            	
+                var width = $('#media_carousel').innerWidth();
+				var target = '+=2';
+                if (width > 940) {
+                    width = width / 6;
+                } else if(width<=940 && width>=720){
+                	width = width / 4;
+                }else if (width<740 && width>480) {
+                    width = width / 2;
+                    target = '+=1';
+                }else{
+	                target = '+=1';
+                }
+				
+                //$('#media_carousel').jcarousel('items').css('width', width + 'px');
+                if(event.type == 'jcarousel:reload'){
+	                $('#media_carousel').jcarouselAutoscroll('reload', {
+					    target: target
+					});
+                }
+            })
+            .jcarousel({
+                wrap: 'circular'
+            })
+            .jcarouselAutoscroll({
+				interval: 2000,
+				target: '+=2',
+				autostart: true
+			});
+		$('#media_carousel').trigger('jcarousel:reload');
+    });
+})(jQuery);
+</script>    	</div>
+    </div>
+    
+    <div class="bg-black">
+	    <div class="container footer">
+	    	<div class="row">
+		    	
+		    	<div class="col-lg-2 col-sm-5 col-xs-12 col-lg-push-4">
+		    		<ul class="quicknav list-unstyled hidden-xs">
+		    			<li class=""><a href="/schedule" target="_self" >Schedule</a></li>
+<li class=""><a href="/parties" target="_self" >Parties</a></li>
+<li class=""><a href="/talent" target="_self" >Talent</a></li>
+<li class=""><a href="/thelair" target="_self" >lair</a></li>
+<li class=""><a href="/exhibitors" target="_self" >Exhibit</a></li>
+		    		</ul>
+		    		<ul class="quicknav list-unstyled visible-xs">
+		    			<li><a href="#top">BACK TO TOP</a></li>
+		    		</ul>
+		    	</div>
+		    	
+		    	<div class="col-lg-4 col-md-5 col-sm-6 hidden-xs newsletter    col-lg-push-4">
+		    		<h3>SIGN UP FOR OUR NEWSLETTER</h3>
+		    		<form action="/subscribe/" method="post" onsubmit="return checkForm();">
+	<input type="hidden" name="subform" value="1" />
+	<div>
+		<input type="text" name="email" id="email" placeholder="Enter a Valid Email Address" />
+		<button type="submit" class="btn-white">Submit</button>
+	</div>
+</form>
+<script type="text/javascript">
+function checkForm(){
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if(!re.test($('#email').val())){
+		alert('Wrong email!');
+		return false;
+	}else{
+		return true;
+	}
+}
+</script>		    	</div>
+		    	<div class="col-md-2 col-sm-1 col-xs-12 social col-lg-push-4">
+		    		<a href="https://www.facebook.com/AVNSHOW" target="_blank"><img src="images/fb.png" alt="fb" ></a>
+			    	<a href="http://instagram.com/avnshow" target="_blank"><img src="images/in.png" alt="in" /></a>
+			    	<a href="https://twitter.com/AEexpo" target="_blank"><img src="images/tw.png" alt="tw" /></a>
+		    	</div>
+		    	<div class="col-xs-12 text-center avnlogo visible-xs">
+		    		<img alt="avnlogo" src="images/avnlogo.png">
+		    	</div>
+		    	<div class="col-lg-4 col-xs-12 col-lg-pull-8">
+		    		<div class="col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 flinks col-lg-push-0 col-lg-12">
+			    		<p>
+			    		
+			    			© 2016 AVNAwards.com is a property of AVN Media Network.  All rights reserved. Reproduction in whole or in part is prohibited. Please send any technical comments or questions to our
+			    		</p>
+			    		<p>
+			    			<a class=""><a href="http://www.avn.com/about-us/privacy-policy.html" target="_blank" >Privacy Policy</a></a>
+&nbsp;|&nbsp;<a class=""><a href="http://www.avn.com/about-us/2257-notice.html" target="_blank" >18 U.S.C. 2257</a></a>
+&nbsp;|&nbsp;<a class=""><a href="mailto:aeetrade@avn.com" target="_blank" >Contact us</a></a>
+			    		</p>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>
+    </div>
+    
+    
+    
+    
+	
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.jcarousel.min.js"></script>
+	
+	<script>
+	jQuery(document).ready(function() {
+		jQuery('#mainnav a').each(function(){
+			var path = this.pathname.substr(1);
+			if(path!='' && jQuery('#'+path).length>0){
+				if(jQuery(this).hasClass('dropdown-toggle')){
+					jQuery(this).attr('href',"#");
+				}else{
+					jQuery(this).attr('href',"#"+path);
+				}
+			}
+		});
+		jQuery('#mainnav').onePageNav({
+			currentClass: 'active',
+			scrollSpeed: 600,
+			scrollOffset: 80,
+			scrollThreshold: 0.5
+		});
+		
+		jQuery('#mainnav').find('a').click(function(){
+			$('#mainnav').find('.navbar-collapse').removeClass('in');
+		});
+	});
+	</script>
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-2521515-48', 'auto');
+	ga('send', 'pageview');
+	
+	</script>
+</body>
+</html>
